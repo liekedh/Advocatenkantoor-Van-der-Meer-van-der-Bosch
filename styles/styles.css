@@ -1,0 +1,496 @@
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.tekst-container {
+    text-align: center;
+    line-height: 22px;
+    width: 904px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+body {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    background-color: #F0EEEA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 300px;
+}
+
+#homepage {
+    background-color: white;
+}
+
+img.foto-duinen {
+    width: 100vw;
+    margin-bottom: 30px;
+}
+
+#pagina {
+    font-weight: bolder;
+}
+
+/* titels */
+
+h1 {
+    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 57px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    filter: drop-shadow(0.5rem 0.25rem 0.5rem rgba(0,0,0,0.5));
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 80px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 70px;
+    color: #5A5A5A;
+}
+
+h4 {
+    font-size: 28px;
+    line-height: 70px;
+}
+
+#quote {
+    font-family: "Abril Fatface", "Times New Roman";
+    text-align: center;
+    color: white;
+    font-size: 57px;
+    padding-top: 350px;
+    filter: drop-shadow(0.5rem 0.25rem 0.5rem rgba(0,0,0,0.5));
+}
+
+/* containers */
+
+.header-container {
+    background-image: url("../images/fotohome.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* header */
+
+header {
+    width: 100%;
+}
+
+.logobalk {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.logo {
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* menu */
+
+ul.menu {
+    padding: 25px 20px;
+    padding-left: 0px;
+    background-color: rgba(00,00,00,0.3);
+    text-align: center;
+    background: linear-gradient(180deg, black, rgba(255,255,255,0));
+}
+
+ul.menu li {
+    padding: 0 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+ul.menu {
+    color: white;
+    list-style: none;
+}
+
+ul.menu a {
+    color: white;
+    font-size: 21px;
+}
+
+ul.menu a:hover {
+    font-weight:bold;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+/* logo */
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* vragen */
+
+#situaties {
+    font-family: "Abril Fatface";
+    text-align: center;
+    font-size: 45px;
+    margin-top: 70px;
+    margin-bottom: 45px;
+}
+
+.vragen-container ul {
+    padding: 22px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    list-style: none;
+}
+
+.vragen-container ul li {
+    background-color: #D8CAB9;
+    color: black;
+}
+
+.vragen-container ul li a {
+    display: flex;
+    width: 150px;
+    height: 80px;
+    padding: 22px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.vragen-container ul li a span {
+    text-align: center;
+    color: black;
+} 
+
+ul li a {
+    text-decoration: none;
+}
+
+/* hulp nodig */
+
+.hulp-container {
+    display: flex;
+    position: relative;
+    width: 330px;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: -60px;
+    z-index: 1;
+}
+
+.hulp-container p {
+    margin: auto;
+    padding: 20px;
+}
+
+/* advocaten */
+
+.contact-container {
+    justify-content: center;
+    width: 860px;
+    height: 65px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contact-container p {
+    margin: 0 auto;
+}
+
+.contact-container1 {
+    justify-content: center;
+    width: 860px;
+    height: 120px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 0px auto;
+}
+
+.contact-container2 {
+    justify-content: center;
+    width: 860px;
+    height: 70px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px auto;
+}
+
+.contact-container3 {
+    justify-content: center;
+    width: 860px;
+    height: 70px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px auto;
+}
+
+.contact-container4 {
+    justify-content: center;
+    width: 860px;
+    height: 70px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 30px auto;
+}
+
+.contact-container p {
+    justify-content: center;
+    width: 860px;
+    height: 110px;
+    background-color: white;
+    color: black;
+    margin: 10px auto;
+}
+
+.contact-container-naam {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    margin: 10px 10px 50px 10px;
+}
+
+.contact-container-naam2 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    margin: 10px 10px 50px 10px;
+}
+
+.contact-container-naam3 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    margin: 10px 10px 50px 10px;
+}
+
+.contact-container-naam4 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+}
+
+.contact-container-naam p {
+    margin: 0 auto;
+    padding: 13px;
+}
+
+.contact-container-naam2 p {
+    margin: 0 auto;
+    padding: 13px;
+}
+
+.contact-container-naam3 p {
+    margin: 0 auto;
+    padding: 13px;
+}
+
+.contact-container-naam4 p {
+    margin: 0 auto;
+    padding: 13px;
+}
+
+.fotosadvocaten {
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.fotosadvocaten2 {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.fotosadvocaten3 {
+    height: 200px;
+    margin: 0 auto;
+}
+
+.fotosadvocaten4 {
+    width: 200px;
+    margin: 0 auto;
+
+}
+
+/* over ons */
+
+.overonskaart {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* faq */
+
+details {
+    padding-bottom: 20px;
+  }
+  
+  details > summary {
+    width: 900px;
+    background-color: white;
+    color: black;
+    margin: 0px;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 25px;
+    align-content: center;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  details > p {
+    width: 900px;
+    background-color: #D8CAB9;
+    color: black;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+/* reviews */
+
+.reviews {
+    width: 100%;
+    margin: 0 auto;
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* footer */
+
+.footer.container {
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.footer-container ul {
+    display: flex;
+    padding: 20px 0 50px 0;
+    align-content: space-evenly;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #D8CAB9;
+}
+
+.footer-container ul li {
+    width: 360px;
+    margin: 0;
+    padding: 12px;
+    margin-left: 50px;
+}
+
+.footer-container ul li a {
+    width: 270px;
+    height: 15vh;
+    max-width: 190px;
+    line-height: 22px;
+}
+
+.footer-container ul li a span {
+    text-align: left;
+    color: #5A5A5A;
+    width: 100%;
+} 
+
+.copyright {
+    display: flex;
+    padding: 20px 0;
+    background: black;
+    color: #D8CAB9;
+    align-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+/* header foto's */
+
+body#headerspecialisme {
+    background-image: url("../images/headerspecialisme.jpg");
+}
+
+body#headeralgemenerechtspraktijk {
+    background-image: url("../images/headeralgemenerechtspraktijk.jpg");
+}
+
+body#headerwerkmethodeenkosten {
+    background-image: url("../images/headerwerkmethodeenkosten.jpg");
+}
+
+body#headeradvocaten {
+    background-image: url("../images/headeradvocaten.jpg");
+}
+
+body#headeroverons {
+    background-image: url("../images/headeroverons.jpg");
+}
+
+body#headerfaq {
+    background-image: url("../images/headerfaq.jpg");
+}
+
+body#headerreviews {
+    background-image: url("../images/headerreviews.jpg");
+}
